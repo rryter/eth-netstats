@@ -61,7 +61,7 @@ api.plugin('spark-latency', require('primus-spark-latency'));
 // Init Client Socket connection
 client = new Primus(server, {
 	transformer: 'websockets',
-	pathname: '/primus',
+	pathname: '/ethstats/primus',
 	parser: 'JSON'
 });
 
